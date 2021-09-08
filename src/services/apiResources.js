@@ -23,22 +23,7 @@ const getCountry = (name) => {
 const getValues = async () => {
   const response = await axios.get(url);
   const { data } = await response;
-  const currentPollutionValues = [];
-  currentPollutionValues.push(
-    {
-      co: data.list[0].components.co,
-      nh3: data.list[0].components.nh3,
-      no: data.list[0].components.no,
-      no2: data.list[0].components.no2,
-      o3: data.list[0].components.o3,
-      pm2_5: data.list[0].components.pm2_5,
-      om10: data.list[0].components.om10,
-      so2: data.list[0].components.so2,
-      dt: data.list[0].dt,
-      main: data.list[0].main,
-    },
-  );
-  return currentPollutionValues;
+  return { ...data.list[0].components, main: data.list[0].main.aqi, dt: data.list[0].dt };
 };
 
 export { getCountry, getValues };
