@@ -7,6 +7,7 @@ function DataDetails() {
   const values = useSelector((state) => state.values);
 
   detailHooks();
+
   const {
     co, nh3, no, no2, o3, pm25, om10, so2, dt, main,
   } = values;
