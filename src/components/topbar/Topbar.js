@@ -10,7 +10,7 @@ function Topbar() {
             {' '}
             <i className="fas fa-wifi"> </i>
           </span>
-          <span className="fw-bold">
+          <span>
             6:45 PM
           </span>
           <span>
@@ -26,7 +26,7 @@ function Topbar() {
             <i className="fas fa-chevron-left pe-1"> </i>
             2021
           </span>
-          <span className="fs-6 fw-bold pe-3">
+          <span className="fs-5 pe-3">
             Air Pollution Data
           </span>
           <span>

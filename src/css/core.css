@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'roboto';
+  src: url('../assets/fonts/Roboto-Medium.ttf');
+}
+
+* {
+  font-family: 'roboto'; 
+}
+
+html,
+.bg-light-red { 
+  background-color: rgb(248, 91, 91);
+}
+ 
