@@ -1,4 +1,4 @@
-# React & Redux group project - Space Travelers' Hub
+# React & Redux capstone project - Air Pullution Data
 
 > This React capstone project is about building a mobile web application to check a list of metrics (numeric values) witch weere created making use of React and Redux.An API ([OpenWeahter](https://openweathermap.org/api/air-pollution)) was chosen to provide numeric data and then build the webapp around it. 
 
