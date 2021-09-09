@@ -25,7 +25,7 @@
 ## Image Preview
 ![Screenshot Main Page](./src/assets/images/capture.jpg)
 
-## :movie_camera: [Video Presentation](https://drive.google.com/file/d/10fIh7VfDbRXLKAD_i51EORC-IixbjvEJ/view?usp=sharing)
+## :movie_camera: [Video Presentation](https://www.loom.com/share/037954db38dc420081829a545d258789)
 
 ## :star: [Live Demo](https://lucid-heyrovsky-ce6db2.netlify.app/) :star:
 
