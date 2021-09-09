@@ -1,12 +1,12 @@
-# React & Redux capstone project - Air Pullution Data
+# React & Redux capstone project - Air Pollution Data
 
-> This React capstone project is about building a mobile web application to check a list of metrics (numeric values) witch weere created making use of React and Redux.An API ([OpenWeahter](https://openweathermap.org/api/air-pollution)) was chosen to provide numeric data and then build the webapp around it. 
+> This React capstone project is about building a mobile web application to check a list of metrics (numeric values) that were created by making use of React and Redux. An API ([OpenWeahter](https://openweathermap.org/api/air-pollution)) was chosen to provide numeric data and then build the web app around it. 
 
-### The webapp will have several pages:
+### The web app will have several pages:
 
-- One page with a list of items that are filtered by continent, showing it's countries.
+- One page with a list of items that are filtered by continent, showing its countries.
   
-- One page for the item details showing country 's air data pollution values **(Ozone, Nitrogen Monoxide, Anmmonia, etc).**
+- One page for the item details showing country's air data pollution values **(Ozone, Nitrogen Monoxide, Ammonia, etc).**
 
 ## This project was built with:
 
