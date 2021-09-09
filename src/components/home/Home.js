@@ -21,7 +21,7 @@ function Home() {
 
   return (
     <>
-      <div className="row text-white">
+      <div className="row text-white" data-testid="homeContainer">
         <div className="col-md-12 bg-light-red p-5 border border-danger border-4">
           <Form
             submit={showCountries}
@@ -31,12 +31,13 @@ function Home() {
         </div>
       </div>
 
-      <div className="row bg-light-red text-white fs-2">
+      <div className="row bg-light-red text-white fs-2" data-testid="countries">
         <div className="countries text-center p-0">
-          {country.map((country) => (
+          {country.map((country, index) => (
             <Country
               key={country.name}
               name={country.name}
+              id={index}
             />
           ))}
         </div>

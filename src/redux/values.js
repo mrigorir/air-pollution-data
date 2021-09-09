@@ -19,4 +19,4 @@ const valuesReducer = (state = {}, action) => {
   }
 };
 
-export { getValuesAction, valuesReducer };
+export { getValuesAction, valuesReducer, GET_VALUES };
