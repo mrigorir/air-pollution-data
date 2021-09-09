@@ -27,7 +27,7 @@
 
 ## :movie_camera: [Video Presentation](https://www.loom.com/share/037954db38dc420081829a545d258789)
 
-## :star: [Live Demo](https://determined-golick-7cda16.netlify.app) :star:
+## :star: [Live Demo](https://suspicious-hopper-79efb3.netlify.app/) :star:
 
 ## Getting Started
 
