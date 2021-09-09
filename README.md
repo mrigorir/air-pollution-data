@@ -23,7 +23,7 @@
  - [OpenWeahter](https://openweathermap.org/api/air-pollution) API features.
 
 ## Image Preview
-![Screenshot Main Page](./src/assets/images/capture.jpg)
+![Screenshot Main Page](./src/assets/img/capture.jpg)
 
 ## :movie_camera: [Video Presentation](https://www.loom.com/share/037954db38dc420081829a545d258789)
 
