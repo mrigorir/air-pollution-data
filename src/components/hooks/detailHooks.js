@@ -7,7 +7,7 @@ const detailHooks = () => {
   const values = useSelector((state) => state.values);
 
   useEffect(() => {
-    if (!values.length) {
+    if (values.length !== 0) {
       dispatch(getValuesAction());
     }
   }, []);
