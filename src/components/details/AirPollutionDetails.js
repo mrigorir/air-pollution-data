@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function AirPollutionDetails({
-  co, nh3, no, no2, o3, pm25, om10, so2, dt, main,
+  co, nh3, no, no2, o3, pm25, pm10, so2, dt, main,
 }) {
   return (
     <div className="data-info">
@@ -45,7 +45,7 @@ function AirPollutionDetails({
       <p className="d-flex aling-items-center justify-content-between">
         Suspended Particulates:
         <span className="pe-2">
-          {om10}
+          {pm10}
         </span>
       </p>
       <p className="d-flex aling-items-center justify-content-between">
@@ -78,7 +78,7 @@ AirPollutionDetails.defaultProps = {
   o3: 0,
   pm25: 0,
   so2: 0,
-  om10: 0,
+  pm10: 0,
   dt: 0,
   main: 0,
 };
@@ -90,7 +90,7 @@ AirPollutionDetails.propTypes = {
   no2: PropTypes.number,
   o3: PropTypes.number,
   pm25: PropTypes.number,
-  om10: PropTypes.number,
+  pm10: PropTypes.number,
   so2: PropTypes.number,
   dt: PropTypes.number,
   main: PropTypes.number,
