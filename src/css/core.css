@@ -4,11 +4,10 @@
 }
 
 * {
-  font-family: 'roboto'; 
+  font-family: 'roboto', sans-serif;
 }
 
 html,
-.bg-light-red { 
+.bg-light-red {
   background-color: rgb(248, 91, 91);
 }
- 

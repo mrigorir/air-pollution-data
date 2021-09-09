@@ -1,29 +1,25 @@
 .country:nth-child(1n) {
-  background-color: #dc3545
-}
-
-.country:nth-child(1n):hover {
-  opacity: 0.4;
+  background-color: #dc3545;
 }
 
 .country:nth-child(2n) {
-  background-color: rgb(248, 91, 91); 
+  background-color: rgb(248, 91, 91);
 }
 
 .country:nth-child(3n) {
-  background-color: rgb(231, 65, 65); 
+  background-color: rgb(231, 65, 65);
 }
 
 .country:nth-child(4n) {
-  background-color: rgb(201, 29, 29); 
+  background-color: rgb(201, 29, 29);
 }
 
 .country:nth-child(5n) {
-  background-color: rgb(175, 12, 12); 
+  background-color: rgb(175, 12, 12);
 }
 
 .country:nth-child(6n) {
-  background-color: rgb(146, 20, 20); 
+  background-color: rgb(146, 20, 20);
 }
 
 .countries {
@@ -40,8 +36,11 @@
   position: absolute;
   top: 15px;
   right: 20px;
-  transition: all ease-in-out .3s;
-  
+  transition: all ease-in-out 0.3s;
+}
+
+.country:nth-child(1n):hover {
+  opacity: 0.4;
 }
 
 .arrow:hover {

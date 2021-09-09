@@ -9,7 +9,7 @@
 
 .data-info p,
 .back-arrow {
-  transition: all ease-in-out .3s;
+  transition: all ease-in-out 0.3s;
 }
 
 .data-info p:hover {
