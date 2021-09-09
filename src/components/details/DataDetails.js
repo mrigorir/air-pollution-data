@@ -6,7 +6,6 @@ import AirPollutionDetails from './AirPollutionDetails';
 
 function DataDetails() {
   const values = useSelector((state) => state.values);
-  console.log(values);
 
   detailHooks();
 
