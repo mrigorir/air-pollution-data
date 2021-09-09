@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'http://api.openweathermap.org/data/2.5/air_pollution';
+const baseURL = 'https://api.openweathermap.org/data/2.5/air_pollution';
 const apiKey = '3315eaf92889a9bdafadcc9859222565';
 let url = '';
 
