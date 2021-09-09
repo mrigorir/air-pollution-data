@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { getCountry } from '../../services/apiResources';
 import flag2 from '../../assets/img/flag2.png';
 
-function Country({ name }) {
+function Country({ name, id }) {
   return (
     <div
       className="country position-relative p-5"
@@ -15,7 +15,7 @@ function Country({ name }) {
       <p>
         {name}
       </p>
-      <Link to="/air-pollution-details" onClick={() => getCountry(name)} className="text-decoration-none">
+      <Link data-testid={id} to="/air-pollution-details/" onClick={() => getCountry(name)} className="text-decoration-none">
         <i className="far fa-arrow-alt-circle-right text-white arrow"> </i>
       </Link>
     </div>
@@ -24,6 +24,7 @@ function Country({ name }) {
 
 Country.propTypes = {
   name: PropTypes.string.isRequired,
+  id: PropTypes.number.isRequired,
 };
 
 export default Country;

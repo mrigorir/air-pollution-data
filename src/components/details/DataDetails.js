@@ -13,7 +13,7 @@ function DataDetails() {
     co, nh3, no, no2, o3, pm25, om10, so2, dt, main,
   } = values;
   return (
-    <div className="bg-light-red text-white">
+    <div className="bg-light-red text-white" data-testid="detailsContainer">
       <div className="row bg-light-red p-3">
         <h1 className="text-center my-3 position-relative">
           <Link to="/" className="back-arrow">
