@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container } from 'react-bootstrap';
 import Home from './components/home/Home';
 import DataDetails from './components/details/DataDetails';
 import Topbar from './components/topbar/Topbar';
@@ -14,7 +15,7 @@ function App() {
   return (
     <Router>
       <Topbar />
-      <div className="container-fluid p-0">
+      <Container fluid>
         <Switch>
           {countries.map((country) => (
             country.map((c) => (
@@ -27,7 +28,7 @@ function App() {
             <Home />
           </Route>
         </Switch>
-      </div>
+      </Container>
     </Router>
   );
 }

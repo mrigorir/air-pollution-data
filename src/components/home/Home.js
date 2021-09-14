@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Row, Col } from 'react-bootstrap';
 import Country from '../countries/Country';
 import hooks from '../hooks/hooks';
 import handleSubmit from '../countries/helpers';
@@ -21,17 +22,17 @@ function Home() {
 
   return (
     <>
-      <div className="row text-white" data-testid="homeContainer">
-        <div className="col-md-12 bg-light-red p-5 border border-danger border-4">
+      <Row className="text-white" data-testid="homeContainer">
+        <Col md={12} className="bg-light-red p-5 border border-danger border-4">
           <Form
             submit={showCountries}
             change={handleChange}
             formClass="d-flex align-items-center justify-content-center flex-column"
           />
-        </div>
-      </div>
+        </Col>
+      </Row>
 
-      <div className="row bg-light-red text-white fs-2" data-testid="countries">
+      <Row className="bg-light-red text-white fs-2" data-testid="countries">
         <div className="countries text-center p-0">
           {country.map((country, index) => (
             <Country
@@ -41,7 +42,7 @@ function Home() {
             />
           ))}
         </div>
-      </div>
+      </Row>
     </>
   );
 }

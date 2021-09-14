@@ -1,4 +1,5 @@
 import React from 'react';
+import { Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import detailHooks from '../hooks/detailHooks';
@@ -13,21 +14,21 @@ function DataDetails() {
   // } = values;
   return (
     <div className="bg-light-red text-white" data-testid="detailsContainer">
-      <div className="row bg-light-red p-3">
+      <Row className="bg-light-red p-3">
         <h1 className="text-center my-3 position-relative">
           <Link to="/" className="back-arrow">
             <i className="far fa-arrow-alt-circle-left text-white"> </i>
           </Link>
           Air data details
         </h1>
-      </div>
+      </Row>
       <div className="d-flex align-items-center justify-content-around bg-white w-100 p-3">
         <i className="clouds fas fa-cloud-meatball text-dark"> </i>
         <i className="clouds fab fa-cloudversify text-primary"> </i>
         <i className="clouds fas fa-cloud-sun text-info"> </i>
         <i className="clouds fas fa-cloud-rain text-warning"> </i>
       </div>
-      <div className="row bg-danger">
+      <Row className="bg-danger">
         <AirPollutionDetails
           key={values.co}
           co={values.co}
@@ -41,7 +42,7 @@ function DataDetails() {
           dt={values.dt}
           main={values.main}
         />
-      </div>
+      </Row>
     </div>
   );
 }
