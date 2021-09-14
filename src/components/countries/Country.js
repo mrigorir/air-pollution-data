@@ -15,7 +15,7 @@ function Country({ name, id }) {
       <p>
         {name}
       </p>
-      <Link data-testid={id} to="/air-pollution-details/" onClick={() => getCountry(name)} className="text-decoration-none">
+      <Link data-testid={id} to={`/air-pollution-details/${name}`} onClick={() => getCountry(name)} className="text-decoration-none">
         <i className="far fa-arrow-alt-circle-right text-white arrow"> </i>
       </Link>
     </div>

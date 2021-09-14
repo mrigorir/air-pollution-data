@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import Country from '../countries/Country';
 import hooks from '../hooks/hooks';
 import handleSubmit from '../countries/helpers';
-import { africa } from '../countries/countries';
+import countries from '../countries/countries';
 import Form from './Form';
 
 function Home() {
   const [continent, setContinent] = useState('Africa');
   const [country, setCountry] = useState([]);
 
-  hooks(africa, setCountry);
+  hooks(countries, setCountry);
 
   const handleChange = (e) => {
     setContinent(e.target.value);

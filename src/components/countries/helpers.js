@@ -1,24 +1,22 @@
-import {
-  africa, eur, america, oceania, asia,
-} from './countries';
+import countries from './countries';
 
 const handleSubmit = (e, continent, setCountry) => {
   e.preventDefault();
   switch (continent) {
     case 'Africa':
-      setCountry(africa);
+      setCountry(countries[0]);
       break;
     case 'Asia':
-      setCountry(asia);
+      setCountry(countries[1]);
       break;
     case 'Europe':
-      setCountry(eur);
+      setCountry(countries[2]);
       break;
     case 'Oceania':
-      setCountry(oceania);
+      setCountry(countries[3]);
       break;
     case 'America':
-      setCountry(america);
+      setCountry(countries[4]);
       break;
     default:
       break;

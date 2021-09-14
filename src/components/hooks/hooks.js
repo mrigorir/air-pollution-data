@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
 
-const hooks = (africa, setCountry) => {
+const hooks = (countries, setCountry) => {
   useEffect(() => {
-    setCountry(africa);
+    setCountry(countries[0]);
   }, []);
 };
 
